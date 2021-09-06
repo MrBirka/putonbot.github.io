@@ -1,0 +1,64 @@
+.code_mention {
+	background-color: #3e3e3e;
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 0 6px;
+  font-family: monospace;
+}
+
+.bot_mention {
+	background-color: #1481db;
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 0 6px;
+  font-family: monospace;
+}
+
+.role_mention_yellow {
+	background-color: #cbcb00;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 0 12px;
+}
+
+.role_mention_purple {
+	background-color: #6400cb;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 0 12px;
+}
+
+.role_mention_blue {
+	background-color: #0005cb;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 0 12px;
+}
+
+.role_mention_blue2 {
+	background-color: #00a6cb;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 0 12px;
+}
+
+.role_mention_green {
+	background-color: #2acb00;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 0 12px;
+}
+
+.role_mention_gold {
+	background-color: #cb9f00;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 0 12px;
+}
+
+.role_mention_grey {
+  background-color: #5a5a5a;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 0 12px;
+}
