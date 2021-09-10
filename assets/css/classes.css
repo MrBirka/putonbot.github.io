@@ -213,7 +213,7 @@ a {
 .helpers {
 	border-collapse: separate;
 	border-spacing: 5px;
-	background: #f7797d;
+	background: linear-gradient(to right, #36D1DC, #5B86E5);
 	border: 16px solid #f7797d;
 	border-radius: 20px;
 }
