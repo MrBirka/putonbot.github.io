@@ -214,9 +214,9 @@ a {
 .helpers {
 	border-collapse: separate;
 	border-spacing: 5px;
-	background: linear-gradient(to right, #36D1DC, #5B86E5);
+	background: linear-gradient(to right, #EA449E, #A91466);
 	border: 16px solid linear-gradient(to right, #36D1DC, #5B86E5);;
-	border-radius: 20px;
+	border-radius: 12px;
 }
 
 /* ------------Search box----------- */
