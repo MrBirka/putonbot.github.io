@@ -109,7 +109,7 @@
 
 			<tr>
 				<td align="center"><span class="code_mention">p.сервер</span></td>
-				<td><span class="code_mention">!сервер</span></td>
+				<td><span class="code_mention">p.сервер</span></td>
 				<td>Информация об сервере (участников, ботов, каналов, статусы, владелец, уровень проверки, бусты, ID)</td>
 				<td><span class="code_mention">Нет</span></td>
 				<td><span class="code_mention">server</span></td>
@@ -117,31 +117,23 @@
 
 			<tr>
 				<td align="center"><span class="code_mention">p.очистка</span></td>
-				<td><span class="code_mention">!очистка <количество> <участник></span></td>
+				<td><span class="code_mention">p.очистить <количество> <участник></span></td>
 				<td>Очистка сообщений в данном канале (все или только у указанного пользователя)</td>
 				<td><span class="code_mention">Управлять сообщениями</span></td>
-				<td><span class="code_mention">clear</span>, <span class="code_mention">clr</span></td>
+				<td><span class="code_mention">clear</span>, <span class="code_mention">cls</span></td>
 			</tr>
 					
 			<tr>
 				<td align="center"><span class="code_mention">p.создатьканал</span></td>
-				<td><span class="code_mention">!создатьканал <тип> <название></span></td>
+				<td><span class="code_mention">p.создатьканал <тип> <название></span></td>
 				<td>Создание нового текстового/голосового/трибунного канала</td>
 				<td><span class="code_mention">Администратор</span></td>
 				<td><span class="code_mention">createchannel</span></td>
 			</tr>
 
 			<tr>
-				<td align="center"><span class="code_mention">p.пригласить</span></td>
-				<td><span class="code_mention">!пригласить</span></td>
-				<td>Ссылка для приглошения бота на сервер</td>
-				<td><span class="code_mention">Нет</span></td>
-				<td><span class="code_mention">invite</span></td>
-			</tr>
-
-			<tr>
 				<td align="center"><span class="code_mention">p.бан</span></td>
-				<td><span class="code_mention">!бан <участник> [причина]</span></td>
+				<td><span class="code_mention">p.бан <участник> [причина]</span></td>
 				<td>Забанить участника на сервере</td>
 				<td><span class="code_mention">Банить участников</span></td>
 				<td><span class="code_mention">ban</span></td>
@@ -149,15 +141,15 @@
 
 			<tr>
 				<td align="center"><span class="code_mention">p.лс</span></td>
-				<td><span class="code_mention">!лс <участник> [сообщение]</span></td>
+				<td><span class="code_mention">p.лс <участник> [сообщение]</span></td>
 				<td>Написать личное сообщение участнику</td>
-				<td><span class="code_mention">Нет</span></td>
+				<td>Нет</td>
 				<td><span class="code_mention">dm</span></td>
 			</tr>
 
 			<tr>
 				<td align="center"><span class="code_mention">p.обьявление</span></td>
-				<td><span class="code_mention">!обьявление [сообщение]</span></td>
+				<td><span class="code_mention">p.обьявление [сообщение]</span></td>
 				<td>Делает объявление на весь севрер</td>
 				<td><span class="code_mention">Управлять сервером</span></td>
 				<td><span class="code_mention">broadcast</span></td>
@@ -165,31 +157,23 @@
 
 			<tr>
 				<td align="center"><span class="code_mention">p.стат</span></td>
-				<td><span class="code_mention">!стат</span></td>
+				<td><span class="code_mention">p.стат</span></td>
 				<td>Показывает статистику ресурсов (ОЗУ, CPU), версию бота и количество серверов, на котором находится бот</td>
-				<td><span class="code_mention">Нет</span></td>
+				<td>Нет</td>
 				<td><span class="code_mention">stats</span></td>
 			</tr>
 
 			<tr>
 				<td align="center"><span class="code_mention">p.пинг</span></td>
-				<td><span class="code_mention">!пинг</span></td>
+				<td><span class="code_mention">p.пинг</span></td>
 				<td>Показывает скорость отправки данных на сервер</td>
-				<td><span class="code_mention">Нет</span></td>
+				<td>Нет</td>
 				<td><span class="code_mention">ping</span></td>
 			</tr>
 
 			<tr>
-				<td align="center"><span class="code_mention">p.партнёры</span></td>
-				<td><span class="code_mention">!партнёры</span></td>
-				<td>Сообщение для канала "Партнёры"</td>
-				<td><span class="code_mention">Нет</span></td>
-				<td><span class="code_mention">partners</span></td>
-			</tr>
-
-			<tr>
 				<td align="center"><span class="code_mention">p.роль</span></td>
-				<td><span class="code_mention">!роль <действие> <участник> <роль></span></td>
+				<td><span class="code_mention">p.роль <действие> <участник> <роль></span></td>
 				<td>Выдаёт или забирает у участника роль</td>
 				<td><span class="code_mention">Администратор</span></td>
 				<td><span class="code_mention">role</span></td>
@@ -197,15 +181,15 @@
 
 			<tr>
 				<td align="center"><span class="code_mention">p.юзер</span></td>
-				<td><span class="code_mention">!юзер [участник]</span></td>
+				<td><span class="code_mention">p.юзер [участник]</span></td>
 				<td>Посмотреть статистику участника</td>
-				<td><span class="code_mention">Нет</span></td>
+				<td>Нет</td>
 				<td><span class="code_mention">user</span></td>
 			</tr>
 
 			<tr>
 				<td align="center"><span class="code_mention">p.слоумод</span></td>
-				<td><span class="code_mention">!слоумод <слоумод (в секундах)></span></td>
+				<td><span class="code_mention">p.слоумод <слоумод (в секундах)></span></td>
 				<td>Изменяет задержку на сообщения в данном канале</td>
 				<td><span class="code_mention">Управлять каналами</span></td>
 				<td><span class="code_mention">slowmode</span></td>
@@ -213,34 +197,50 @@
 
 			<tr>
 				<td align="center"><span class="code_mention">p.кик</span></td>
-				<td><span class="code_mention">!кик <участник> [причина]</span></td>
+				<td><span class="code_mention">p.кик <участник> [причина]</span></td>
 				<td>Кикает участника с сервера</td>
 				<td><span class="code_mention">Кикать участников</span></td>
 				<td><span class="code_mention">kick</span></td>
 			</tr>
 			
 			<tr>
-				<td align="center"><span class="code_mention">p.чат</span></td>
-				<td><span class="code_mention">!чат <текстовый> [вкл./выкл.]</span></td>
-				<td>Меняет право писать в чат</td>
+				<td align="center"><span class="code_mention">p.лок</span></td>
+				<td><span class="code_mention">p.лок <пинг канала></span></td>
+				<td>Блокирует доступ к каналу</td>
 				<td><span class="code_mention">Администратор</span></td>
-				<td><span class="code_mention">chat</span></td>
+				<td><span class="code_mention">lock</span></td>
+			</tr>
+					
+			<tr>
+				<td align="center"><span class="code_mention">p.анлок</span></td>
+				<td><span class="code_mention">p.анлок <пинг канала></span></td>
+				<td>Снимает блокировку доступа к каналу</td>
+				<td><span class="code_mention">Администратор</span></td>
+				<td><span class="code_mention">unlock</span></td>
 			</tr>
 					
 			<tr>
 				<td align="center"><span class="code_mention">p.спик</span></td>
-				<td><span class="code_mention">!спик <голосовой> [вкл./выкл.]</span></td>
-				<td>Меняет право говорить в голосовом</td>
-				<td><span class="code_mention">Администратор</span></td>
-				<td><span class="code_mention">speak</span></td>
+				<td><span class="code_mention">p.тикет <пинг канала></span></td>
+				<td>Открыть тикет поддержки</td>
+				<td>Нет</td>
+				<td><span class="code_mention">open</span></td>
+			</tr>	
+			
+			<tr>
+				<td align="center"><span class="code_mention">p.спик</span></td>
+				<td><span class="code_mention">p.войс <пинг канала></span></td>
+				<td>Открыть тикет поддержки в голосовом канале</td>
+				<td>Нет</td>
+				<td><span class="code_mention">voice</span></td>
 			</tr>
 					
 			<tr>
-				<td align="center"><span class="code_mention">p.приват</span></td>
-				<td><span class="code_mention">!приват <канал> [вкл./выкл.]</span></td>
-				<td>Меняет приватность канала</td>
-				<td><span class="code_mention">Администратор</span></td>
-				<td><span class="code_mention">private</span></td>
+				<td align="center"><span class="code_mention">p.спик</span></td>
+				<td><span class="code_mention">p.кнб</span></td>
+				<td>Сыграть против ИИ в игру "Камень-Ножницы-Бумага"</td>
+				<td>Нет</td>
+				<td><span class="code_mention">ssp</span></td>
 			</tr>
 
 		</table>
